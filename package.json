@@ -1,0 +1,28 @@
+{
+  "name": "his02",
+  "version": "1.0.0",
+  "description": "HIS系统多角色并发自动化测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts",
+    "test:ui": "npx playwright test --config=playwright.config.ts --ui",
+    "test:report": "npx playwright test --config=playwright.config.ts && npx playwright show-report"
+  },
+  "keywords": [
+    "his",
+    "automation",
+    "testing",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.7",
+    "docx": "^9.7.1",
+    "playwright": "^1.44.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+dist/
+*/dist/
+.vite/
+*/.vite/
+
+# Environment variables
+.env
+*/.env
+.env.local
+*/.env.local
+.env.production
+*/.env.production
+
+# Test results
+test-results/
+test-report/
+playwright-report/
+*/playwright-report/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
